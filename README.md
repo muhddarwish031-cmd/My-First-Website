@@ -38,7 +38,8 @@ Projek ini menggabungkan pelbagai teknologi dari fasa reka bentuk antaramuka seh
 Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](https://[pautan-live-demo-anda].github.io / vercel.app)
 
 ### Halaman Utama (Homepage)
-![Halaman Utama](path/to/screenshot-homepage.png)
+
+![Halaman Utama](<img width="1898" height="926" alt="HomePage" src="https://github.com/user-attachments/assets/91c4b586-cde9-457f-8850-fe74dfcb24c4" />)
 
 ### My Works
 ![Paparan Sistem](path/to/screenshot-features.png)
