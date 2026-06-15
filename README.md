@@ -35,7 +35,7 @@ This project combines various technologies from the interface design phase up to
 ## 📸 Screenshots & Live Demo
 
 ### 🌐 Live Demo
-Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](https://AboutMe/aboutme.html.github.io)
+Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](https://AboutMe/aboutme.html)
 
 ### Homepage
 
