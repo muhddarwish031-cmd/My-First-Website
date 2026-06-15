@@ -41,20 +41,31 @@ Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](http
 
 ![Halaman Utama](https://github.com/user-attachments/assets/91c4b586-cde9-457f-8850-fe74dfcb24c4)
 
+
 ### My Works
+
 ![My Works](https://github.com/user-attachments/assets/24b78079-206b-492c-9bef-cd5fe57234f1)
 
+
 ### About Me
+
 ![About Me](https://github.com/user-attachments/assets/b47571c3-a80c-48a5-b3e6-e8cdd17e0607)
 
+
 ### Footer
+
 ![Paparan Sistem](https://github.com/user-attachments/assets/c01808bd-503b-422e-bbd7-a1d5c47d2c86)
 
+
 ### Blog
+
 ![Paparan Sistem](https://github.com/user-attachments/assets/58580963-01f3-4ddb-a7e9-5fa1578cd8c3)
 
+
 ### Contact
+
 ![Paparan Sistem](https://github.com/user-attachments/assets/0947b53d-432b-45e2-b696-588d7fed68ba)
+
 
 ### Read More Page
 
