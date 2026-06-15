@@ -20,10 +20,8 @@ Projek ini menggabungkan pelbagai teknologi dari fasa reka bentuk antaramuka seh
 | Bahagian | Teknologi / Alat yang Digunakan |
 | :--- | :--- |
 | **Reka Bentuk UI/UX** | Figma (Prototyping & Wireframing) |
-| **Frontend** | HTML5, CSS3, JavaScript, [Masukkan Framework jika ada, contoh: Tailwind CSS / Bootstrap] |
-| **Backend** | [Masukkan bahasa backend, contoh: PHP / Python] |
-| **Pengurusan Data** | [Masukkan pangkalan data, contoh: MySQL (3NF Normalized)] |
-| **Kawalan Versi** | Git & GitHub |
+| **Frontend** | HTML, CSS & JavaScript |
+| **Kawalan Versi** | Zip & Salin |
 
 ---
 
