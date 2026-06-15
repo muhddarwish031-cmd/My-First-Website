@@ -6,38 +6,37 @@ I'm coded this website when I was still studying in Foundation Computer Science.
 [![Web Development](https://img.shields.io/badge/Focus-Web%20Development-blue.svg)](#)
 [![UI/UX Design](https://img.shields.io/badge/Focus-UI%2FUX%20Design-orange.svg)](#)
 
-## 📌 Pengenalan Projek
-**About Me** ialah sebuah platform berasaskan web yang dibangunkan untuk menyediakan sistem portfolio peribadi. 
+## 📌 Project Overview
+**About Me** is a web-based platform developed to provide a personal portfolio system. 
 
-Projek ini dibina bagi menyelesaikan masalah [nyatakan masalah ringkas yang diselesaikan], sekaligus memberikan pengalaman pengguna yang lancar dan efisien, terutamanya bagi [nyatakan pengguna sasaran andaProjek ini dibina bagi menyelesaikan masalah kesukaran memaparkan kemahiran teknikal dan hasil kerja (project showcase) secara interaktif melalui resume tradisional, sekaligus menyediakan satu platform berpusat bagi memudahkan bakal majikan menilai portfolio serta keupayaan saya dalam bidang pembangunan web dan reka bentuk UI/UX.
-
+This project was built to solve the difficulty of displaying technical skills and project showcases interactively through traditional resumes, while providing a centralized platform to make it easier for potential employers to evaluate my portfolio and capabilities in the fields of web development and UI/UX design.
 ---
 
-## 🛠️ Teknologi & Peralatan (Tech Stack)
+## 🛠️ Tech Stack & Tools
 
-Projek ini menggabungkan pelbagai teknologi dari fasa reka bentuk antaramuka sehinggalah kepada pembangunan sistem:
+This project combines various technologies from the interface design phase up to the core system development:
 
-| Bahagian | Teknologi / Alat yang Digunakan |
+| Layer | Technologies / Tools Used |
 | :--- | :--- |
-| **Reka Bentuk UI/UX** | Figma (Prototyping & Wireframing) |
+| **UI/UX Design** | Figma (Prototyping & Wireframing) |
 | **Frontend** | HTML, CSS & JavaScript |
-| **Kawalan Versi** | Zip & Salin |
+| **Version Control** | Zip & Copy |
 
 ---
 
-## ✨ Ciri-Ciri Utama (Key Features)
+## ✨ Key Features
 
-* **📱 Reka Bentuk Responsif:** Antaramuka yang dioptimumkan sepenuhnya menggunakan prinsip susun atur moden (seperti CSS Box Model/Flexbox/Grid) supaya kemas dipaparkan pada skrin desktop, tablet, mahupun telefon pintar.
-* **🎨 Antaramuka Mesra Pengguna (UI/UX):** Aliran navigasi yang direka bentuk terlebih dahulu melalui fasa prototaip bagi memastikan pengalaman pengguna yang intuitif.
+* **📱 Fully Responsive Design:** The interface is fully optimized using modern layout principles ensuring a clean display across desktops, tablets, and smartphones.
+* **🎨 Intuitive UI/UX:** A user-friendly navigation flow mapped out during the prototyping phase to guarantee a seamless user experience.
 
 ---
 
-## 📸 Paparan Skrin & Demo (Screenshots & Live Demo)
+## 📸 Screenshots & Live Demo
 
 ### 🌐 Live Demo
 Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](https://[pautan-live-demo-anda].github.io / vercel.app)
 
-### Halaman Utama (Homepage)
+### Homepage
 
 ![Halaman Utama](https://github.com/user-attachments/assets/91c4b586-cde9-457f-8850-fe74dfcb24c4)
 
@@ -56,7 +55,7 @@ Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](http
 ### Contact
 ![Paparan Sistem](https://github.com/user-attachments/assets/0947b53d-432b-45e2-b696-588d7fed68ba)
 
-### Halaman Read More
+### Read More Page
 
 | My Journey | Learning Resources | Comments |
 |---|---|---|
