@@ -40,5 +40,17 @@ Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](http
 ### Halaman Utama (Homepage)
 ![Halaman Utama](path/to/screenshot-homepage.png)
 
-### Antaramuka Sistem / Ciri Utama
+### My Works
+![Paparan Sistem](path/to/screenshot-features.png)
+
+### About Me
+![Paparan Sistem](path/to/screenshot-features.png)
+
+### Blog
+![Paparan Sistem](path/to/screenshot-features.png)
+
+### Contact
+![Paparan Sistem](path/to/screenshot-features.png)
+
+### Read More
 ![Paparan Sistem](path/to/screenshot-features.png)
