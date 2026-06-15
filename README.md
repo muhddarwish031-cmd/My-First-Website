@@ -52,5 +52,5 @@ Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](http
 ### Contact
 ![Paparan Sistem](path/to/screenshot-features.png)
 
-### Read More
-![Paparan Sistem](path/to/screenshot-features.png)
+### Halaman Read More
+| ![Screen 1](https://github.com/user-attachments/assets/74393373-98ae-498e-9501-b15e447c5ebf) | ![Screen 2](https://github.com/user-attachments/assets/5f6a5593-1ef7-4653-ad53-01c4a9525618) | ![Screen 3](https://github.com/user-attachments/assets/50820cb5-d708-4c97-aa7f-f0b3b5760350) | ![Screen 4](https://github.com/user-attachments/assets/1fc829ce-938f-4ace-8dc9-0db674464c94)
