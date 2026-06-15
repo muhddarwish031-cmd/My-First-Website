@@ -39,22 +39,25 @@ Uji projek ini secara langsung di sini: [👉 Klik untuk ke Website Projek](http
 
 ### Halaman Utama (Homepage)
 
-![Halaman Utama](<img width="1898" height="926" alt="HomePage" src="https://github.com/user-attachments/assets/91c4b586-cde9-457f-8850-fe74dfcb24c4" />)
+![Halaman Utama](https://github.com/user-attachments/assets/91c4b586-cde9-457f-8850-fe74dfcb24c4)
 
 ### My Works
-![Paparan Sistem](path/to/screenshot-features.png)
+![My Works](https://github.com/user-attachments/assets/24b78079-206b-492c-9bef-cd5fe57234f1)
 
 ### About Me
-![Paparan Sistem](path/to/screenshot-features.png)
+![About Me](https://github.com/user-attachments/assets/b47571c3-a80c-48a5-b3e6-e8cdd17e0607)
+
+### Footer
+![Paparan Sistem](https://github.com/user-attachments/assets/c01808bd-503b-422e-bbd7-a1d5c47d2c86)
 
 ### Blog
-![Paparan Sistem](path/to/screenshot-features.png)
+![Paparan Sistem](https://github.com/user-attachments/assets/58580963-01f3-4ddb-a7e9-5fa1578cd8c3)
 
 ### Contact
-![Paparan Sistem](path/to/screenshot-features.png)
+![Paparan Sistem](https://github.com/user-attachments/assets/0947b53d-432b-45e2-b696-588d7fed68ba)
 
 ### Halaman Read More
 
-| Login Screen | Photo Stream | Photo Post | Profile |
-|---|---|---|---|
-| ![Screen 1](https://github.com/user-attachments/assets/74393373-98ae-498e-9501-b15e447c5ebf) | ![Screen 2](https://github.com/user-attachments/assets/5f6a5593-1ef7-4653-ad53-01c4a9525618) | ![Screen 3](https://github.com/user-attachments/assets/50820cb5-d708-4c97-aa7f-f0b3b5760350) | ![Screen 4](https://github.com/user-attachments/assets/1fc829ce-938f-4ace-8dc9-0db674464c94)
+| My Journey | Learning Resources | Comments |
+|---|---|---|
+| ![Screen 1](https://github.com/user-attachments/assets/005fe0ff-affe-4885-937f-eeb4f684f960) | ![Screen 2](https://github.com/user-attachments/assets/ea81b2e3-3886-423c-8fb8-f8e651db334f) | ![Screen 3](https://github.com/user-attachments/assets/d65cd690-6422-4d3f-96ed-81b6889d2336)
