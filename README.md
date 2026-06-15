@@ -10,6 +10,7 @@ I'm coded this website when I was still studying in Foundation Computer Science.
 **About Me** is a web-based platform developed to provide a personal portfolio system. 
 
 This project was built to solve the difficulty of displaying technical skills and project showcases interactively through traditional resumes, while providing a centralized platform to make it easier for potential employers to evaluate my portfolio and capabilities in the fields of web development and UI/UX design.
+
 ---
 
 ## 🛠️ Tech Stack & Tools
