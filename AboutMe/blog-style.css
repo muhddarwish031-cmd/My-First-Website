@@ -1,0 +1,723 @@
+/* ============================= */
+/* Blog Hero Image Header        */
+/* ============================= */
+
+/* Hero Container */
+.image-header {
+    display: flex;
+    /* Turns this section into a flex container so items can be aligned easily */
+
+    flex-direction: column;
+    /* Puts the title and subtitle in a vertical line (top to bottom) */
+
+    justify-content: center;
+    /* Moves the title and subtitle to the middle vertically */
+
+    align-items: center;
+    /* Moves the title and subtitle to the middle horizontally */
+
+    position: relative;
+    /* Makes this box the reference point for absolutely positioned elements */
+
+    color: white;
+    /* Makes all text inside this section white */
+
+    height: 400px;
+
+    /* Sets the height of the hero area to 400 pixels */
+
+    width: 100%;
+    /* Makes the hero area stretch across the whole screen */
+
+    background: #2c3e50;
+    /* Shows a dark background color if the image does not load */
+
+    overflow: hidden;
+    /* Hides any part of the image that goes outside this box */
+
+    margin-top: 70px;
+    /* Pushes the hero down so it does not hide under the fixed header */
+}
+
+/* Background hero image */
+.header-hero {
+    position: absolute;
+    /* Removes the image from normal layout so it can float inside the hero */
+
+    top: 0;
+    /* Moves the image to the top of the hero */
+
+    left: 0;
+    /* Moves the image to the left of the hero */
+
+    width: 100%;
+    /* Makes the image stretch to full width */
+
+    height: 100%;
+    /* Makes the image stretch to full height */
+
+    object-fit: cover;
+    /* Makes the image fill the area and crops extra parts */
+
+    pointer-events: none;
+    /* Allows user to click text instead of the image */
+}
+
+/* Hero title */
+.image-header h1 {
+    position: relative;
+    /* Keeps the title on top of the image */
+
+    font-size: 40px;
+    /* Makes the title text big */
+
+    font-weight: bold;
+    /* Makes the title text thick */
+
+    font-family: Playfair Display;
+    /* Uses a decorative font for the title */
+
+    letter-spacing: 5px;
+
+    /* Adds space between each letter */
+
+    margin-bottom: 15px;
+    /* Adds space between the title and the subtitle */
+}
+
+/* Hero subtitle */
+.image-header p {
+    position: relative;
+    /* Keeps the subtitle on top of the image */
+
+    font-size: 25px;
+    /* Makes the subtitle slightly big */
+
+    font-weight: normal;
+    /* Keeps the subtitle not bold */
+
+    font-family: "Lucida Handwriting", cursive;
+    /* Uses a handwriting style font */
+
+    margin-top: 0;
+    /* Removes extra space above the subtitle */
+}
+
+/* ============================= */
+/* Blog Layout Columns           */
+/* ============================= */
+
+.leftcolumn {
+    float: left;
+    /* Moves this column to the left side */
+
+    width: 75%;
+    /* Makes this column take 75% of the page width */
+}
+
+.rightcolumn {
+    float: left;
+    /* Places this column next to the left column */
+
+    width: 25%;
+    /* Makes this column take 25% of the page width */
+
+    padding-left: 20px;
+    /* Adds space between the two columns */
+}
+
+.row:after {
+    content: "";
+    /* Creates an invisible element */
+
+    display: table;
+    /* Makes the invisible element behave like a block */
+
+    clear: both;
+    /* Forces the parent to wrap around the floated columns */
+}
+
+/* ============================= */
+/* Left Blog Image               */
+/* ============================= */
+
+.left-blog-img {
+    height: 200px;
+    /* Sets a fixed height for the blog image box */
+
+    overflow: hidden;
+    /* Cuts off any part of the image that is too tall */
+
+    margin-bottom: 15px;
+    /* Adds space below the image */
+}
+
+.left-blog-img img {
+    width: 100%;
+    /* Makes the image fill the box width */
+
+    height: 100%;
+    /* Makes the image fill the box height */
+
+    object-fit: cover;
+    /* Crops the image so it fills the box nicely */
+}
+
+/* ============================= */
+/* Card Style (Articles)         */
+/* ============================= */
+.card {
+    background-color: #F0F8FF;
+    /* Gives the card a light blue background */
+    padding: 20px;
+    /* Adds space inside the card */
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    /* Adds space around the card */
+}
+
+/* Card title */
+.leftcolumn .card h2 {
+    font-size: 26px;
+    /* Makes the article title large */
+    font-weight: bold;
+    /* Makes the title bold */
+    font-family: Playfair Display;
+    /* Uses a stylish font */
+}
+
+/* Card date */
+.leftcolumn .card h5 {
+    font-size: 20px;
+    /* Makes the date medium size */
+    font-weight: normal;
+
+    /* Keeps the date not bold */
+    /* Card paragraph */
+    .leftcolumn .card p {
+        font-family: Playfair Display;
+        /* Uses same font as title */
+        margin-bottom: 15px;
+        /* Adds space below the date */
+    }
+
+    font-size: 16px;
+    /* Normal reading text size */
+
+    font-weight: normal;
+    /* Normal text thickness */
+
+    font-family: sans-serif;
+    /* Uses clean simple font */
+
+    text-align: justify;
+    /* Makes both left and right edges straight */
+
+    margin-bottom: 15px;
+    /* Adds space between paragraphs */
+}
+
+/* Sidebar card title */
+.rightcolumn .card h3 {
+    font-size: 20px;
+    /* Medium heading size */
+
+    font-weight: bold;
+    /* Makes heading bold */
+
+    font-family: Playfair Display;
+    /* Uses decorative font */
+
+    margin-bottom: 10px;
+    /* Adds space below heading */
+}
+
+/* ============================= */
+/* Focus List                    */
+/* ============================= */
+
+.focus-list {
+    counter-reset: list-counter;
+    /* Resets custom list numbering */
+
+    padding-left: 15px;
+    /* Moves list slightly to the right */
+
+    font-family: sans-serif;
+    /* Uses clean simple font */
+
+    font-size: 14px;
+    /* Makes text smaller */
+
+    color: #000;
+    /* Makes text black */
+}
+
+.focus-list li {
+    margin-bottom: 10px;
+    /* Adds space between list items */
+
+    line-height: 1.5;
+    /* Adds vertical space for easier reading */
+}
+
+/* ============================= */
+/* Collaborator Links            */
+/* ============================= */
+
+.collaborator a {
+    display: block;
+    /* Makes the link behave like a button */
+
+    font-size: 15px;
+    /* Medium text size */
+
+    color: #333;
+    /* Dark gray text */
+
+    text-decoration: none;
+    /* Removes underline */
+
+    background-color: #f2f2f2;
+    /* Light gray background */
+
+    padding: 12px 14px;
+    /* Adds space inside the button */
+
+    border-radius: 6px;
+    /* Rounds the corners */
+
+    width: 100%;
+    /* Makes button full width */
+}
+
+.collaborator a:hover {
+    background-color: #6A5ACD;
+    /* Changes background color when mouse is over */
+    color: #fff;
+    /* Changes text to white on hover */
+}
+
+.collaborator a:hover {
+    background-color: #6A5ACD;
+    /* Changes background color when mouse is over */
+    color: #fff;
+    /* Changes text to white on hover */
+}
+
+/* ============================= */
+/* Category List                 */
+/* ============================= */
+.category-list {
+    list-style-type: none;
+    /* Removes bullet points */
+}
+
+.category-list a {
+    display: block;
+    /* Makes each category look like a button */
+    font-size: 15px;
+    /* Medium text size */
+    color: #333;
+    /* Dark text color */
+    text-decoration: none;
+    /* Removes underline */
+
+    background-color: #f2f2f2;
+    /* Light background */
+
+    padding: 12px 14px;
+    /* Adds inner space */
+
+    border-radius: 6px;
+    /* Rounded edges */
+
+    width: 100%;
+    /* Full width buttons */
+
+    margin-bottom: 8px;
+    /* Space between buttons */
+
+    transition: background-color 0.3s, color 0.3s;
+    /* Makes hover smooth */
+}
+
+.category-list a:hover {
+    background-color: #6A5ACD;
+    /* Purple background on hover */
+
+    color: #fff;
+    /* White text on hover */
+}
+
+/* ============================= */
+/* Post Container                */
+/* ============================= */
+.post-container {
+    display: flex;
+    /* Turns container into flex layout */
+
+    flex-direction: column;
+    /* Stacks items vertically */
+
+    align-items: center;
+    /* Centers content horizontally */
+
+    max-width: 1000px;
+    /* Limits how wide content can be */
+
+    margin: 100px auto 48px;
+    /* Centers container and adds space around it */
+
+    background: #fff;
+    /* White background */
+
+    border-radius: 8px;
+    /* Rounded corners */
+
+    overflow: hidden;
+    /* Hides content that goes outside */
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    /* Adds soft shadow */
+
+    font-family: "Montserrat", sans-serif;
+    /* Uses modern font */
+
+    color: #333;
+    /* Dark text color */
+
+    padding: 32px;
+    /* Adds space inside container */
+}
+
+/* ============================= */
+/* Article Section               */
+/* ============================= */
+.article {
+    width: 100%;
+    /* Makes article take full container width */
+}
+
+.article .post {
+    padding: 32px;
+    /* Adds space inside the post */
+}
+
+.article .post h1 {
+    margin-bottom: 12px;
+    /* Adds space below main heading */
+    font-size: 40px;
+    /* Makes main heading big */
+    font-weight: bold;
+    /* Makes heading thick */
+    font-family: Playfair Display;
+    /* Decorative font */
+}
+
+.article .post h4 {
+    margin-bottom: 12px;
+    /* Adds space below sub heading */
+    color: gray;
+    /* Makes text gray */
+    font-weight: 400;
+    /* Medium thickness */
+    font-size: 18px;
+    /* Medium text size */
+}
+
+
+/* Keeps original image ratio */
+.post-image {
+    width: 100%;
+    /* Makes image full width */
+
+    height: auto;
+
+    border-radius: 15px;
+    /* Rounds image corners */
+
+    margin-bottom: 24px;
+    /* Adds space below image */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adds shadow to image */
+
+    object-fit: cover;
+    /* Scales image nicely */
+}
+
+.article .post-content p {
+    margin-bottom: 24px;
+    /* Adds space between paragraphs */
+
+    line-height: 1.6;
+    /* Increases line spacing */
+
+    text-align: justify;
+    /* Aligns both edges */
+
+    font-size: 18px;
+    /* Makes reading text bigger */
+}
+
+/* ============================= */
+/* Media section container       */
+/* ============================= */
+.post-media {
+    display: flex;
+    /* Places media in row */
+
+    flex-wrap: wrap;
+    /* Moves items to next line on small screens */
+
+    gap: 32px;
+
+    /* Adds space between media items */
+
+    width: 100%;
+    /* Full width container */
+
+    margin-bottom: 32px;
+    /* Space before next section */
+}
+
+.article .post-content h2 {
+    margin-bottom: 24px;
+    /* Adds space below heading */
+
+    color: #6A5ACD;
+    /* Makes heading purple */
+
+    text-align: center;
+    /* Centers the heading */
+
+    font-size: 32px;
+    /* Makes heading big */
+}
+
+/* Left and Right columns */
+.media-left,
+.media-right {
+    flex: 1 1 300px;
+    /* Makes both columns flexible with minimum width */
+
+    display: flex;
+    /* Makes inner items flexible */
+
+    justify-content: center;
+    /* Centers items horizontally */
+
+    align-items: center;
+    /* Centers items vertically */
+}
+
+/* Video styling */
+.post-video-element {
+    width: 100%;
+    /* Makes video full width */
+
+    max-width: 100%;
+    /* Stops video from overflowing */
+
+    border-radius: 8px;
+    /* Rounds video corners */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adds shadow */
+}
+
+/* Audio styling */
+.post-audio-element {
+    width: 100%;
+    /* Makes audio full width */
+
+    max-width: 400px;
+    /* Limits how wide audio can be */
+}
+
+/* Table styling */
+.media-table {
+    width: 100%;
+    /* Full width table container */
+
+    overflow-x: auto;
+    /* Adds horizontal scroll on small screens */
+}
+
+.media-table table {
+    width: 100%;
+
+    /* Makes table fill container */
+
+    border-collapse: collapse;
+    /* Merges table borders */
+}
+
+.media-table th,
+.media-table td {
+    padding: 10px;
+    /* Adds space inside cells */
+
+    border: 3px solid #ccc;
+    /* Adds thick gray borders */
+
+    text-align: center;
+    /* Centers text */
+
+    vertical-align: middle;
+    /* Centers text vertically */
+}
+
+.media-table th {
+    background: #6A5ACD;
+    /* Purple header background */
+
+    color: #fff;
+    /* White header text */
+}
+
+/* ============================= */
+/* Comment Section               */
+/* ============================= */
+.comment {
+    width: 100%;
+    /* Full width */
+
+    padding: 32px;
+    /* Space inside comment box */
+
+    background: #F0F8FF;
+
+    /* Light blue background */
+
+    border-radius: 8px;
+    /* Rounded edges */
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* Soft shadow */
+}
+
+.comment h2 {
+    margin-bottom: 24px;
+    /* Space below heading */
+
+    color: #6A5ACD;
+    /* Purple heading */
+
+    text-align: left;
+    /* Align text to left */
+
+    font-size: 32px;
+    /* Big heading */
+}
+
+/* Comment form */
+.comment form {
+    display: flex;
+    /* Makes form flexible */
+
+    flex-direction: column;
+    /* Stacks inputs vertically */
+}
+
+.comment form .input-box input,
+.comment form textarea {
+    width: 100%;
+    /* Full width inputs */
+
+    padding: 15px;
+    /* Space inside input */
+
+    font-size: 16px;
+    /* Medium text */
+
+    border-radius: 6px;
+    /* Rounded input */
+
+    border: 1px solid #ccc;
+    /* Light gray border */
+}
+
+.comment form .cancel-btn {
+    padding: 12px 30px;
+    /* Button size */
+
+    border-radius: 25px;
+    /* Rounded button */
+
+    margin-top: 20px;
+    /* Space above button */
+
+    margin-right: 10px;
+    /* Space between buttons */
+
+    display: inline-block;
+    /* Makes button behave like a box */
+
+    font-size: 16px;
+    /* Button text size */
+}
+
+.comment form .cancel-btn {
+    background: #eee;
+    /* Light background */
+
+    color: #6A5ACD;
+    /* Purple text */
+
+    border: none;
+    /* Removes border */
+}
+
+.comment form .cancel-btn:hover {
+    box-shadow: 0 0 1.6rem #6A5ACD;
+    /* Adds glowing shadow on hover */
+}
+
+/* Comment list */
+.comment-list {
+    margin-top: 32px;
+    /* Space above comment list */
+
+    display: flex;
+    /* Makes list flexible */
+
+    flex-direction: column;
+    /* Stacks comments vertically */
+}
+
+.comment-item {
+    background: #fff;
+    /* White background */
+
+    padding: 16px 24px;
+    /* Space inside comment */
+
+    border-radius: 6px;
+    /* Rounded edges */
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    /* Soft shadow */
+
+    margin: 12px;
+    /* Space between comments */
+}
+
+.comment-item .comment-author {
+    font-weight: 600;
+    /* Makes author name bold */
+
+    margin-bottom: 8px;
+    /* Space below name */
+}
+
+.comment-item .comment-text {
+    font-size: 16px;
+    /* Normal text size */
+
+    line-height: 1.5;
+    /* Comfortable reading spacing */
+}
